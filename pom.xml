@@ -18,7 +18,7 @@
         <repository>
             <id>dverstap-github</id>
             <name>Davy Verstappen's maven repository at github.com</name>
-            <url>file</url>
+            <url>https://github.com/dverstap/maven-repo/releases</url>
         </repository>
     </distributionManagement>
 
@@ -29,7 +29,6 @@
             <version>4.8.2</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
 
     <build>
