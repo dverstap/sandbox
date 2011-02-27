@@ -17,13 +17,13 @@
         <repository>
             <id>dverstap-github-releases</id>
             <name>Davy Verstappen's release maven repository at github.com</name>
-            <url>https://github.com/dverstap/maven-repo/releases</url>
+            <url>https://github.com/dverstap/maven-repo/maven2/releases</url>
         </repository>
 <!--
         <snapshotRepository>
             <id>dverstap-github-snapshots</id>
             <name>Davy Verstappen's snapshot maven repository at github.com</name>
-            <url>https://github.com/dverstap/maven-repo/snapshots</url>
+            <url>https://github.com/dverstap/maven-repo/maven2/snapshots</url>
         </snapshotRepository>
 -->
     </distributionManagement>

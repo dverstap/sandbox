@@ -11,4 +11,4 @@ cd target
 git clone git@github.com:dverstap/maven-repo.git
 cd ..
 
-mvn -DaltDeploymentRepository=dverstap-github-releases::default::file:../maven-repo/releases release:perform
+mvn -DaltDeploymentRepository=dverstap-github-releases::default::file:../maven-repo/maven2/releases release:perform
