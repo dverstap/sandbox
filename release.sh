@@ -1,5 +1,7 @@
 #/usr/bin/env bash
 
+set -e
+
 # See this to understand how this is supposed to work:
 # http://cemerick.com/2010/08/24/hosting-maven-repos-on-github/
 
@@ -12,3 +14,11 @@ git clone git@github.com:dverstap/maven-repo.git
 cd ..
 
 mvn -DaltDeploymentRepository=dverstap-github-releases::default::file:../maven-repo/maven2/releases release:perform
+
+cd target/maven-repo
+git add .
+git commit -a -m "New releases"
+git push origin master
+cd ../..
+
+git fetch
